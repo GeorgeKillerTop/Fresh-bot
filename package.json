@@ -1,6 +1,6 @@
 {
-  "name": "Budgie",
-  "description": "Budgie bot",
+  "name": "Fresh",
+  "description": "Fresh bot",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
