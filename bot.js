@@ -405,20 +405,11 @@ Scire pe chat numarul corespunzator videoclipului pe care vrei sa il asculti `)
             message.channel.sendMessage(E16); 
             break;
         case "sexy":  
-            if (message.author.id === 421760890908704778){
-            var S1 = new Discord.RichEmbed()
-            .setColor("#15f153")
-            .addField("Sanse", message.author.username + " este sexy in proportie de 100%")
-            .setTimestamp();
-            return message.channel.sendMessage(S1); 
-	    }
-            if (!message.author.id === 421760890908704778){
             var E17 = new Discord.RichEmbed()
             .setColor("#15f153")
             .addField("Sanse", message.author.username + " este sexy in proportie de " + r1[Math.floor(Math.random() * r1.length)])
             .setTimestamp();
-            return message.channel.sendMessage(E17); 
-	    }
+            message.channel.sendMessage(E17);
             break;     
         case "mute": 
         if(!message.member.hasPermission("MANAGE_MESSAGES")) {
